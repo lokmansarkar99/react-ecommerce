@@ -61,6 +61,9 @@ const categories = ["Clothing", "Accessories", "Home & Kitchen", "Electronics"]
     <Filters categories={categories} categoryFilter={categoryFilter} setCategoryFilter={setCategoryFilter} sortOrder={sortOrder} setSortOrder={setSortOrder} /> 
       </div>
 
+    <div className="w-full flex justify-center pb-2 ">
+        <h1 className="  text-3xl md:text-4xl  border-b-2  border-amber-300 inline-block ">All Products</h1>
+    </div>
    
             <ProductGrid filteredAndSortedProducts={filteredAndSortedProducts} handleAddToCart={handleAddToCart} />
 
